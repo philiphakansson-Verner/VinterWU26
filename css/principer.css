@@ -1,0 +1,52 @@
+main{
+grid-template-areas: 
+'hd nv'
+'se1 co1'
+'se2 co2'
+'se3 co3'
+'ft ft';
+height: 200vh;
+width: 95%;
+gap: 20px;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+background-color: aqua;
+}
+header{
+    grid-area: hd;
+}
+nav{
+    grid-area: nv;
+    background-color: aqua;
+}
+section{
+background-color: aqua;
+}
+.sec1{
+grid-area: se1;
+
+}
+.sec2{
+    grid-area:se2;
+
+}
+.sec3{
+    grid-area: sec3;
+   
+}
+div{
+    background-color: rebeccapurple;
+}
+
+.con1{
+    grid-area: co1;
+}
+.con2{
+    grid-area: co2;
+}
+.con3{
+    grid-area: co3;
+}
+footer{
+    grid-area: ft;
+}
